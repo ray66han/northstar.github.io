@@ -1,3 +1,4 @@
+<!-- footer main body start from here -->
 <div class="footer-main">
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
@@ -11,3 +12,4 @@
         </footer>
     </div>
 </div>
+<!-- /footer main body ends here -->

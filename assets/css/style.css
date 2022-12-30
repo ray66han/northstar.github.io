@@ -39,7 +39,7 @@
 /* ---------------------------------------------=/*Footer-main start from here /=----------------------------------------------- */
 .footer-main {
     background-color: #173452;
-
+    overflow-y: hidden;
 }
 .foot-north-star-logo {
     width: 50px;
@@ -57,16 +57,174 @@
 
 
 
-/* ---------------------------------------------=/* /=----------------------------------------------- */
-/* ---------------------------------------------=//=----------------------------------------------- */
+/* ---------------------------------------------=/*Draw signature start from here /=----------------------------------------------- */
+.card-position-cls {
+    margin: 100px;
+    position: relative;
+    left: 13%;
+    overflow-x:hidden;
+}
+.card-style-cls {
+    border: 1px solid #C9CFD359;
+}
+.card-title-style {
+    font-size: 24px;
+    font-weight: 600;
+}
+.border-bottom-header {
+    width: 93.7%;
+    position: relative;
+    left: 3.3%;   
+}
+.full-name-txt {
+    color: #6A6F73;
+    font-size: 16px;
+    font-weight: 400!important;
+}
+#fullName {
+    background-color: #C9CFD359;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.btn-contained-toggle{
+    border: none;
+    border-radius: 5px;
+    width: 208px;
+    height: 56px;
+    margin-left: 10px;
+    position: relative;
+    color: #7191DC;
+    background-color: white;
+}
+.btn-active{
+    background-color: #7191DC;
+    color: white;
+}
+.btn-contained-toggle:hover {
+    color: white;
+    background-color: #7191DC;
+}
+.btn-after-effect::after{
+    content:"";
+    display: block;
+    width: 45px;
+    height: 2px;
+    transform: rotate(90deg);
+    background: #C9CFD359;
+    left: 93%;
+    top: 50%;
+    position: absolute;
+}
+.options-grp {
+    border: 2px solid #C9CFD359;
+    padding: 7px;
+    border-radius: 15px;
+}
+.btn-cst-cls {
+    position: relative;
+    right: 90%;
+    top: 150px;
+}
+.signature-div {
+    height: 248px;
+    background-color: #C9CFD359;
+    border-radius: 8px;
+}
+#signature-canvas {
+    width:400; 
+    height:220;
+}
+.straight-line {
+    padding-top: 30px;
+}
+.border-bottom-width {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+#clear-button {
+    position: relative;
+    left: 85%;
+    top: 8px;
+    color: #7191DC;
+    border: none;
+}
+.form-confirmation {
+    color: #6A6F73;
+    font-size: 16px;
+}
+.draw-footer-btn {
+    position: relative;
+    left: 64%;
+}
+.cancel-custom-txt {
+    background-color: white;
+    border: none;
+    color: #7191DC;
+}
+.btn-custom-color {
+    background-color: #3D5CA6;
+    color: white;
+}
+/* ---------------------------------------------=/Draw signature ends here/=----------------------------------------------- */
 
 
-/* ---------------------------------------------=/* /=----------------------------------------------- */
-/* ---------------------------------------------=//=----------------------------------------------- */
 
 
-/* ---------------------------------------------=/* /=----------------------------------------------- */
-/* ---------------------------------------------=//=----------------------------------------------- */
+
+/* ---------------------------------------------=/*Upload-signature starts from here /=----------------------------------------------- */
+.icon-img {
+    background-color: #00000029;
+    position: relative;
+    /* border: 0px solid black;  */
+    display: flex; 
+    align-items: center;
+    padding: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 50px;
+    left: 300px;
+} 
+.icon-file-txt {
+    position: relative;
+    top: 70px;
+    left: 25%;
+    font-size: 18px;
+    font-weight: 300!important;
+    color: #6A6F73;
+}
+#browse-button {
+    color: #3D5CA6;
+    border: none;
+}
+/* ---------------------------------------------=/Upload-signature ends here/=----------------------------------------------- */
+
+
+/* ---------------------------------------------=/*Auto-signature start from here /=----------------------------------------------- */
+.danger-info-txt {
+    color: red;
+}
+.exclamation-mark {
+    color: white;
+    position: relative;
+    top: 45%;
+    left: 13px;
+    transform: translateY(-50%);
+}
+  
+.circle {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+/* ---------------------------------------------=/Auto-signature ends here/=----------------------------------------------- */
 
 
 /* ---------------------------------------------=/* /=----------------------------------------------- */

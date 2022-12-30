@@ -1,3 +1,4 @@
+<!-- navbar main body start from here -->
 <div class="north-star-navbar-cls">
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
@@ -11,3 +12,4 @@
         </header>
     </div>
 </div>
+<!-- /nav-bar main body ends here -->
