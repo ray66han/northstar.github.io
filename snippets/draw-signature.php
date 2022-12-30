@@ -15,9 +15,9 @@
                 <!-- all the draw-upload-auto options goes here -->
                 <div class="options-grp">
                     <div class="form-group">
-                        <button class="btn-contained-toggle btn-after-effect"><a href="?page=draw-signature">Draw</a></button>
+                        <button class="btn-contained-toggle btn-after-effect btn-active"><a href="?page=draw-signature">Draw</a></button>
                         <button class="btn-contained-toggle btn-after-effect"><a href="?page=upload-signature">Upload an image</a></button>
-                        <button class="btn-contained-toggle btn-active"><a href="?page=auto-signature">Auto Generate</a></button>
+                        <button class="btn-contained-toggle"><a href="?page=auto-signature">Auto Generate</a></button>
                     </div>
                     <div class="form-group signature-div">
                         <canvas id="signature-canvas"></canvas>
